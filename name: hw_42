@@ -1,0 +1,24 @@
+name: hw_42
+description: Minimal Flutter app prepared for release
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.11.0
+  flutter_native_splash: ^2.2.20
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/splash/
+    - assets/icons/

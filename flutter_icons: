@@ -1,0 +1,27 @@
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: "assets/splash/splash.png"
+  android: true
+  ios: true
+  web: false
+
+# TEMPLATE. Copy to android/key.properties and fill values locally. DO NOT commit real passwords.
+storePassword=CHANGE_ME_STORE_PASSWORD
+keyPassword=CHANGE_ME_KEY_PASSWORD
+keyAlias=release_key
+storeFile=android/app/release-keystore.jks
+
+# Local Android signing files (do NOT commit)
+android/key.properties
+android/app/release-keystore.jks
+
+# Flutter build outputs
+/build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
